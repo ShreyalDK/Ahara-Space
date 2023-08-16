@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    background: white;
+    width: 100%;
+    z-index: 9999;
+    /* margin-top:10px ; */
+}
+
+header ,header nav {
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+}
+
+#logo a{
+    width: 50px;
+    height: 50px;
+    background: url("../photos/A_S-Logo.png") center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px ;
+}
+
+.headerP {
+    display: inline;
+    font-size: larger;
+    color: black;
+    font-size: 20px;
+    /* text-shadow: 2px 2px 5px #C6DCE4; */
+    font-weight: bolder;
+}
+
+.greenAcc {
+    color: #07ff5a;
+    font-weight: bolder;
+}
+
+.logoutA {
+    text-decoration: none;
+    color: black;
+}
+
+.logoutA:hover {
+    color: #07ff5a;
+}
+
+.errorMsg {
+    font-size: 20px;
+    color: #07ff5a;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.noOrderId {
+    font-size: 40px;
+    color: #07ff5a;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.navAI, .navAO{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.navAO:hover {
+    color: #07ff5a;
+}
+
+.navAI {
+    color: #07ff5a;
+}
+
+.navAI:hover {
+    color: #07ff5a;
+}
